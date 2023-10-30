@@ -113,6 +113,9 @@ a {
     height: 2rem;
     width: fit-content;
 }
+.badge:hover{
+    cursor: pointer;
+}
 .sticky-nav {
     z-index: 1;
     position: sticky;
@@ -161,8 +164,14 @@ a {
     width: 100%;
     border-radius: 0.5rem;
 }
+.card-img:hover{
+    cursor: pointer;
+}
 .card-title {
     font-weight: 600;
+}
+.card-title {
+    cursor: pointer;
 }
 .card-info {
     font-size: 0.85rem;
@@ -211,6 +220,9 @@ a {
     height: 1.7rem;
     justify-content: space-between;
 }
+.album-icons:hover{
+    cursor: pointer;
+}
 .player {
     width: 50%;
 }
@@ -219,6 +231,9 @@ a {
     width: 20%;
     height: 2rem;
     display: flex;
+}
+.controls:hover{
+    cursor: pointer;
 }
 .controls img{
     width: 2rem;
@@ -240,6 +255,7 @@ a {
 
 .player-control-icon:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 .playback-bar {
@@ -279,4 +295,7 @@ a {
    margin-right: 1.2rem;
    font-weight: 600;
 
+}
+.range{
+    cursor: pointer;
 }
