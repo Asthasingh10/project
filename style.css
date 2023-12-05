@@ -1,6 +1,7 @@
 * {
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 0;
+    margin: 0px;
+    padding: 0px;
     /* background-color: #000; */
     color: #fff;
     overflow: hidden;
@@ -81,6 +82,7 @@ a {
 .icons i {
     opacity: 0.7;
     margin-right: 1rem;
+    cursor: pointer;
 }
 .icons i {
     opacity: 1;
@@ -136,12 +138,16 @@ a {
 }
 .nav-item {
     margin-top: 0.5rem;
+    cursor: pointer;
     margin-right: 1rem;
 }
 .dark-badge {
     background-color: #000;
     color: #fff;
     font-size: 1.1rem;
+}
+.imgIcon{
+    cursor: pointer;
 }
 @media (max-width:1000px) {
     .hide {
