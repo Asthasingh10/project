@@ -308,7 +308,6 @@ a {
     cursor: pointer;
 }
 .sidebar-footer{
-    /* z-index: 1; */
     height: 50%;
     font-size: 0.7em;
     background-color: #232323;
@@ -326,4 +325,40 @@ a {
 }
 .sidebar-footer i{
    margin-right: 1em;
+}
+.address{
+   margin: 2em;
+   justify-content: space-around;
+   display: flex;
+   flex-wrap: wrap;
+}
+.address div,p{
+   opacity: 0.7;
+    margin: 0.8em;
+}
+.address p:hover,h5:hover{
+    cursor: pointer;
+    opacity: 1;
+    text-decoration: underline;
+}
+.address-icon {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.address-icon i{
+        background-color: #232323;
+        border-radius: 100%;
+        width: 1.2em;
+        font-size: 2em;
+        opacity: 0.7;
+        height: 1.2em;
+        padding: 0.2em;
+        
+}
+.address-icon i:hover{
+    background-color: grey;
+    cursor: pointer;
+    opacity: 1;
+    color: white;
 }
