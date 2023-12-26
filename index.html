@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body oncontextmenu="return false;">
     <div class="main">
         <div class="sidebar">
             <div class="nav">
@@ -89,7 +89,15 @@
                     <p class="card-title">Top 50-Global</p>
                     <p class="card-info">Your daily updates of the most played...</p>
                 </div>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="images/card18.png" class="card-img">
+                        <p class="card-title">A Merry Lofi Christmas</p>
+                        <p class="card-info">have yourself a chill and lofi xmas...</p>
+                    </div>
+                </div>
             </div>
+           
             <h2>Trending now near you</h2>
             <div class="cards-container">
                 <div class="card">
@@ -108,7 +116,7 @@
                     <p class="card-info">Your daily updates of the most played...</p>
                 </div>
                 <div class="card">
-                    <img src="images/card3img.jpeg" class="card-img">
+                    <img src="images/card19.png" class="card-img">
                     <p class="card-title">Top 50-Global</p>
                     <p class="card-info">Your daily updates of the most played...</p>
                 </div>
@@ -298,5 +306,17 @@
         </div>
     </div>
 </body>
-
+<script>
+    document.onclick=function(e){
+        if(event.keyCode==123){
+            return false;
+        }if(e.ctrlKey && e.shiftKey && e.keyCode=='I'.charCodeAt(0)){
+            return false;
+        }if(e.ctrlKey && e.shiftKey && e.keyCode=='J'.charCodeAt(0)){
+            return false;
+        }if(e.ctrlKey && e.keyCode== 'U'.charCodeAt(0)){
+            return false;
+        }
+    }
+</script>
 </html>
