@@ -36,6 +36,9 @@ a {
     color: white;
 }
 .nav {
+    position: sticky;
+    top: 1rem;
+    z-index: 2;
     margin: 1rem;
     background-color: #232323;
     color: #121212;
@@ -91,7 +94,7 @@ a {
 }
 .box {
     background-color: #232323;
-    height: 8rem;
+    height: 9rem;
     border-radius: 0.75rem;
     margin: 0.5rem 0 1.75rem 0;
     padding: 0.75rem 1rem;
@@ -308,10 +311,12 @@ a {
     cursor: pointer;
 }
 .sidebar-footer{
-    height: 50%;
+     bottom: 4rem;
+     z-index: 1;
+    position: sticky;
     font-size: 0.7em;
-    background-color: #232323;
-    height: 12rem;
+    background-color:black;
+    height: 10rem;
     border-radius: 0.75rem;
     margin: 0.5rem 0 1.75rem 0;
     padding: 0.75rem 1rem;
@@ -343,8 +348,6 @@ a {
 }
 .address-icon {
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
 }
 .address-icon i{
         background-color: #232323;
