@@ -24,6 +24,9 @@
     overflow:scroll;
     padding: 0 1.5rem 0 1.5rem;
 }
+.main-content::-webkit-scrollbar{
+    display: none;
+}
 .music-player {
     background-color: black;
     position: fixed;
@@ -118,7 +121,6 @@ a {
     color: #000;
     border: none;
     border-radius: 100px;
-    /* background-color: #fff; */
     padding: 0.25rem 1rem;
     font-weight: 700;
     margin-top: 1rem;
@@ -126,6 +128,8 @@ a {
     width: fit-content;
 }
 .badge:hover{
+    height: 5vh;
+    width: 10.5vw;
     cursor: pointer;
 }
 .sticky-nav {
@@ -243,10 +247,10 @@ a {
     width: 50%;
 }
 .controls{
+    display: flex;
     margin-right: 9rem;
     width: 20%;
     height: 2rem;
-    display: flex;
 }
 .controls:hover{
     cursor: pointer;
@@ -331,6 +335,7 @@ a {
 }
 .sidebar-footer p{
     opacity: 0.7;
+    cursor: pointer;
     margin: 0.5em;
 }
 .sidebar-footer i{
@@ -369,4 +374,13 @@ a {
     cursor: pointer;
     opacity: 1;
     color: white;
+}
+.lang{
+    background-color: black; 
+    color: white; 
+    border: 1px solid white;
+}
+.lang:hover{
+    height: 5vh;
+    width: 8vw;
 }
