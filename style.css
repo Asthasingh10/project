@@ -11,7 +11,7 @@
     padding: 0.5rem;
 }
 .sidebar {
-    overflow: auto;
+    /* overflow: auto; */
     background-color: #000;
     width: 340px;
     margin-right: 0.1rem;
@@ -21,7 +21,7 @@
     background-color: #121212;
     flex: 1;
     border-radius: 1rem;
-    overflow: auto;
+    overflow:scroll;
     padding: 0 1.5rem 0 1.5rem;
 }
 .music-player {
@@ -65,16 +65,21 @@ a {
     margin-left: 1rem;
 }
 .library {
+    height: 30vh;
     overflow: auto;
     background-color: #121212;
     border-radius: 1rem;
     margin-top: 0.5rem;
     padding: 0.5rem 0.75rem;
 }
+
 .options {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.library::-webkit-scrollbar{
+    display: none;
 }
 .library-option img {
     height: 1.25rem;
